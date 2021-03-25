@@ -187,7 +187,7 @@ class _PlayerPanelState extends State<PlayerPanel>
     return _play
         ? _Player(
             streamLink:
-                _playerType == 'urlresolver' ? _directUrl : widget.streamLink,
+                _playerType == 'YouTube' ? "https://www.youtube.com/results?search_query=hostel+stand+up+comedy" : "https://www.youtube.com/results?search_query=hostel+stand+up+comedy",
             playerType: _playerType,
           )
         : GestureDetector(

@@ -180,7 +180,7 @@ Widget buildView(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             VideoPlayerItem(
-              vc: VideoPlayerController.network(VideoUrl.getUrl(d.key, d.site)),
+              vc: VideoPlayerController.network("https://www.youtube.com/results?search_query=hostel+stand+up+comedy"),
               coverurl: 'https://i.ytimg.com/vi/${d.key}/hqdefault.jpg',
               showplayer: true,
             ),
@@ -194,6 +194,8 @@ Widget buildView(
                     fontWeight: FontWeight.w500),
               ),
             ),
+
+            Text("helllcdvsfdvdfvdfd",style: TextStyle(fontSize: 50),),
           ],
         ),
       ),
